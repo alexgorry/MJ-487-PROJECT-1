@@ -1,0 +1,831 @@
+/***TOP HEADER****/
+
+.head {
+  height: 37px;
+  background-color: #2498F4;
+  list-style-type: none;
+  margin: auto;
+  padding-right: 100px;
+}
+
+
+.head li {
+  float: right;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+}
+    
+.head img {
+  padding-right: 20px;
+}
+
+.head a {
+  color: white;
+}
+
+#mini {
+  padding-right: 15px;
+}
+
+
+/*******MAIN NAV******/
+
+
+.icons {
+  background-position: center;
+  padding-top: 20px;
+  height: 110px;
+}
+
+
+.icons ul, .navbar ul {
+  list-style: none;
+  margin-right:40px;
+}
+
+
+.front:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.back {
+  margin-left: 1px;
+}
+
+.first {
+   position: absolute;
+  z-index: 2;
+}
+
+.second {
+   position: absolute;
+  z-index: 1;
+}
+
+#dashboard1 {
+  left: 10%;
+}
+
+#people1 {
+  left: 24%;
+}
+
+#messages1 {
+  left: 38%;
+}
+
+#tag1 {
+  left: 52%;
+}
+
+#edit1 {
+  left: 66%;
+}
+
+#stats1 {
+  left: 80%;
+}
+
+#dashboard {
+  left: 10%;
+}
+
+#people {
+  left: 24%;
+}
+
+#messages {
+  left: 38%;
+}
+
+#tag {
+  left: 52%;
+}
+
+#edit {
+  left: 66%;
+}
+
+#stats {
+  left: 80%;
+}
+
+#chevron {
+  left: 12%;
+  bottom: 0%;
+  margin-bottom: -5px;
+  pasition: relative;
+}
+
+.background1 {
+  background-image: url(../images/diagonal-bg.png);
+}
+.background2 {
+  background-image: url(../images/shadows.png);
+}
+
+
+/***LEFT SIDE CONTENT***/
+
+.dash {
+  background-color: #3dca6a;
+  border-radius: 5px;
+  padding: 30px 0px 20px 0px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left:20px;
+}
+
+.dash h1 {
+  font-family: 'Hind', sans-serif;
+  font-size: 39px;
+  color: white;
+  margin: 0 auto;
+  display: inline;
+}
+.dash form {
+  float: right;
+  margin-top: -3px;
+}
+
+input[type=text] {
+padding: 10px 150px 4px 0px;
+}
+/* got this from https://www.w3schools.com/css/css_form.asp */
+
+.dash form input {
+  border-color: #2db55b;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+}
+
+.dash img {
+  z-index: 2;
+  display: inline-block;
+  position: relative;
+  float: right;
+  left: -40px;
+  padding-top: 6px;
+}
+
+/***MAIN***/
+
+.content {
+  background-image: url(../);
+  background-size:contain;
+  margin: 0px -15px;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.content .row {
+  box-shadow: 0px 1px 1px grey;
+}
+
+h2 {
+  font-family: 'Hind', sans-serif;
+  font-size: 30px;
+  color: #3399ff;
+  margin-left: 20px;
+  display: inline;
+}
+
+.tiles {
+  margin: 0px 3px;
+  background-color: white;
+  padding-top: 15px;
+}
+
+
+.row .row {
+  box-shadow: none;
+}
+
+
+.internal {
+  padding: 0px;
+}
+
+
+.border-right {
+  border-right: 0.5px solid #eeeeee;
+}
+
+.border-bottom {
+    border-bottom: 0.5px solid #eeeeee;
+}
+
+
+.bullet {
+  float: left;
+  display: inline;
+  margin-left: 20px;
+}
+
+/*ANNOUNCEMENTS*/
+
+
+.announcements {
+  background-color: white;
+  border: 1px solid #efefef;
+  margin: 0px 3px;
+  line-height: 40px;
+}
+
+.announcements h4 {
+  font-family: 'Hind', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #f57e20;
+  margin: 0px;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+.announcements p {
+  font-family: 'Hind', sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #777777;
+  margin: 0px;
+}
+
+.announcements a { 
+  margin: 3px;
+}
+
+/*RECOMMENDATIONS*/
+
+
+.tasks h3, .rec h3 {
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  color: #3399ff;
+  margin-left: 15px;
+  display: inline;
+  vertical-align: super;
+}
+
+.tasks ul, .rec ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.tasks li:last-child { 
+  border: none;
+}
+
+.tasks li:hover, .rec li:hover {
+  /* got this grayscales filter/ learned about it at https://www.w3schools.com/cssref/css3_pr_filter.asp*/
+  -webkit-filter: grayscale(1);
+  filter: grayscale(100);
+  cursor: pointer;
+}
+
+/*TASKS*/
+
+
+.tasks .sprite-grey-settings {
+  float: right;
+  display: inline;
+  margin-right: 20px;
+}
+
+.tasks li {
+  line-height: 40px;
+  padding: 15px 0px 5px 0px;
+  border-bottom: 0.5px solid #eeeeee;
+}
+
+
+.tasks .sprite-tasks-settings:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.tag {
+  float: right;
+  display: inline;
+  vertical-align: super;
+  margin-right: 20px;
+}
+
+/*RECOMMENDATIONS*/
+
+
+.rec {
+  padding: 20px 20px;
+}
+
+.rec li {
+  line-height: 40px;
+  padding: 15px 0px 5px 0px;
+  border-bottom: 0.5px dotted #eeeeee;
+}
+
+.rec h2 {
+  margin: 0px;
+}
+
+
+.rec-list .bullet {
+  width: 20px;
+  margin: 0px 20px 0px 0px;
+}
+
+.rec h6 {
+  font-family: 'Hind', sans-serif;
+  font-size: 10px;
+  color: #777777;
+  margin: 0px;
+  display: block;
+  vertical-align: middle;
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+.rec p {
+  font-family: 'Hind', sans-serif;
+  font-size: 17px;
+  color: #777777;
+  line-height: normal;
+  display: block;
+  text-align: left;
+  line-height: 100%;
+}
+
+.rec li:hover p, .rec li:hover h6 {
+  color: black;
+}
+
+
+
+
+/****Graphs******/
+
+#activity {
+  margin-left: 40px;
+}
+
+/*learned about sytling dropdowns here: https://www.w3schools.com/css/css_dropdowns.asp */
+.dropbtn {
+    background-color: white;
+    color: #666666;
+    padding: 5px 5px;
+    margin: 14px;
+    font-size: 16px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.dropdownarrow {
+  margin-right: 5px;
+  margin-left: 40px;
+}
+
+.dropdown button {
+  padding: 10px 10px 10px 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    border-bottom: 0.5px solid #eeeeee;
+}
+
+.dropbtn {
+  font-size: 13px;
+
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-size: 12px;
+    font-family: 'Hind', sans-serif;
+}
+
+
+.analytics h2, h5 {
+  display: block;
+}
+
+.analytics p {
+  font-family: 'Hind', sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #777777;
+  text-align: left;
+  line-height: 20px;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.activity {
+  border-right: 1px solid #d3d3d3;
+}
+
+
+.analytics h5 {
+  font-family: 'Hind', sans-serif;
+  font-size: 13px;
+  color: #999999;
+  display: inline;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.graph {
+  margin: 30px 20px 20px 20px;
+  width: 90%;
+}
+.circles * {
+  margin: 10px;
+  vertical-align: bottom;
+}
+.circles img {
+  margin-bottom: 30px;
+}
+
+.social-col {
+  margin-top: 20px;
+}
+.social-col, .buffer {
+  padding-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/*learned about checkboxes here https://stackoverflow.com/questions/4148499/how-to-style-a-checkbox-using-css*/
+input[type="checkbox"] + label{
+  background: url(../images/unchecked.png);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 16px;
+  display: inline-block;
+  margin: 0px 3px 10px 10px;
+  padding: 0px 29px 20px 0px;
+}
+input[type="checkbox"]:checked + label{
+  background: url(../images/checked.png);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 16px;
+  display: inline-block;
+  margin: 0px 3px 10px 10px;
+   padding: 0px 29px 20px 0px;
+}
+label:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.social-tag {
+  display: inline-block;
+  border-radius: 5px;
+  font-family: 'Hind', sans-serif;
+  font-size: 13px;
+  color: white;
+  display: inline;
+  vertical-align: top;
+  text-align: center;
+  padding: 0px 8px;
+  margin-left: -3px;
+}
+#fb {
+  background-color: #003366;
+}
+#twitter {
+  background-color: #3399ff;
+}
+#foursquare {
+  background-color: #336699;
+}
+#google {
+  background-color: #33cc66;
+}
+
+/****CONTACTS****/
+
+
+.contacts {
+  height: 300px;
+}
+
+.outer {
+  position: absolute;
+  left: 15%;
+  height: 200px;
+  width: 240px;
+  margin: 50px 0px;
+  z-index: 2;
+  background-image: url(../images/ribbon-background.png);
+  background-repeat: no-repeat;
+  background-position: 0px 18px;
+}
+
+.outer img {
+  position: absolute;
+  margin: 0px auto;
+  z-index: 2;
+  left: 82px;
+  top: -21px;
+}
+
+
+.inner {
+  width: 210px;
+  margin: 0 auto;
+  text-align: center;
+  border: 0.5px solid #d9d9d9;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px #d9d9d9;
+  padding-top: 60px;
+  border-left: none;
+  border-right: none;
+}
+
+
+.ribbon {
+  background-color: #3399ff;
+  text-align: center;
+  padding: 5px;
+  margin-top: -1px;
+}
+
+
+.sprite-green-line, .sprite-orange-line {
+  margin: 15px auto;
+  border: 1px solid #eeeeee;
+}
+
+
+.contacts h3 {
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  color: white;
+  display: block;
+  vertical-align: super;
+  text-align: center;
+  margin: 0px;
+}
+.contacts h5 {
+  font-family: 'Hind', sans-serif;
+  font-size: 13px;
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 0px;
+}
+
+/*****"DID YOU KNOW" SECTION****/
+
+
+.dyk {
+  margin: 20px 30px;
+  background-color: #2498f4;
+  border-radius: 3px;
+}
+
+.quote1 {
+  color:white;
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.quote2 {
+  color:white;
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0px 0px 40px 0px;
+}
+
+.dyktop {
+  margin: 0;
+  padding: 40px 0px 0px 0px;
+  color: white;
+  font-family:'Hind', sans-serif;
+  font-size: 14px;
+  
+}
+
+.dyk img {
+  position: absolute;
+  display: inline;
+  top: 35%;
+}
+
+.dyk-nav-left, .didyouknow-nav-right {
+  width: 22px;
+  position: relative;
+  padding: 0px;
+}
+
+.dyk-nav-right  {
+  text-align: right;
+  padding-right: 22px;
+}
+.dyk-nav-right img {
+  float:right;
+  clear: right;
+}
+
+.dyk h5 {
+  margin: 5px, 5px, 5px, 5px;
+  font-family: 'Hind', sans-serif;
+  font-size: 13px;
+  color: white;
+  display: block;
+  text-align: left;
+}
+
+/****AD BANNER*****/
+
+.banner div {
+  display: inline-flex;
+}
+.banner {
+  background-color: #3399ff;
+}
+
+.inner-ad {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px #006699;
+  margin: 30px 15px;
+  max-height: 160px;
+  min-height: 160px;
+  min-width: 275px;
+}
+.banner a:hover {
+  cursor: pointer;
+}
+.inner-ad img {
+  vertical-align: top;
+}
+.ad-2 img {
+  position: absolute;
+  top: 19px;
+  border-radius: 5px;
+}
+
+.ad-3 {
+  margin-right: 139px;
+}
+
+
+/****FOOTER******/
+
+
+.footer {
+  background-color: #f4f4f4;
+  border-top: 1px solid white;
+  box-shadow: 0px -2px 5px #e2e2e2;
+  font-family: 'Hind', sans-serif;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.footer * {
+  display: inline;
+}
+
+.footer a:active {
+  color: #7f7f7f;
+}
+.footer li:hover {
+  color: #2498f2;
+  cursor: pointer;
+}
+.footer li a:active {
+  color: #2498f2;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0px;
+}
+.footer .horizontal li {
+  float: left;
+  margin: 10px;
+}
+
+.footer li {
+  background-image: url(../images/footer-separator.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-left: 5px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.footer .menu a {
+  color: grey;
+}
+
+.footer li:first-of-type {
+  background-image: none;
+}
+
+.footer .menu {
+  padding: 0px;
+}
+
+.footer .border-right {
+  border-right: 1px solid #dddddd;
+}
+
+.uparrow {
+  float: right;
+}
+
+.promo p {
+  float: left;
+  color: #7f7f7f;
+  vertical-align: middle;
+  margin: 10px;
+}
+.promo p a, .logout p a {
+  font-weight: bold;
+  color: #2498f2;
+  vertical-align: middle;
+}
+.promo img {
+  float: right;
+  margin: 15px 10px;
+}
+.promo img:hover {
+  transform: scale(1.1);
+}
+
+.logout a {
+  margin-top: 10px;
+}
+
+.logout * {
+  display: inline;
+  font-size: 13px;
+}
+img#profpic {
+  height: 30px;
+  width: 30px;
+}
+#profpic {
+  border: 3px solid white;
+  border-radius: 2px;
+  box-shadow: 0px 3px 3px #d0d0d0;
+  margin: 12px auto;
+  width: 40%;
+}
+
+.social {
+  text-align: center;
+}
+
+/*learned how to get social media icons grey
+ and hover color at
+ https://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html-css*/
+
+
+.social img {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  -webkit-filter: grayscale(1); /* Safari 6.0 - 9.0 */
+  filter: gray;
+}
+
+.social img:hover {
+  -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+  filter: none;
+  cursor: pointer;
+}
